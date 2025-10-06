@@ -1,3 +1,4 @@
+alert("JS loaded successfully!");
 const products = [
   {
     id: 1,
@@ -92,5 +93,6 @@ displayProducts(products);
 // Event listeners
 categoryFilter.addEventListener("change", filterProducts);
 priceFilter.addEventListener("change", filterProducts);
+
 
 
